@@ -21,7 +21,6 @@ def long_planeteer_calls(words)
     i +=1
     if words[i].length <= 4
       false
-      short_words << words[i]
     else
       true
     end
