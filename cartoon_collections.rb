@@ -18,8 +18,12 @@ def long_planeteer_calls(words)
   short_words = []
   i = 0
   while i < words.length
-    array[i]
-      short_words << 
+    i +=1
+    if words[i].length <= 4
+      true
+      short_words << words[i]
+    else
+      false
 end
 
 def find_the_cheese# code an argument here
