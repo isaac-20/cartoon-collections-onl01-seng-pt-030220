@@ -20,10 +20,10 @@ def long_planeteer_calls(words)
   while i < words.length
     i +=1
     if words[i].length <= 4
-      true
+      false
       short_words << words[i]
     else
-      false
+      true
     end
   end
   short_words
