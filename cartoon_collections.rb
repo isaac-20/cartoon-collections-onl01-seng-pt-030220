@@ -14,8 +14,12 @@ def summon_captain_planet(array)
   newArray
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(words)
+  short_words = []
+  i = 0
+  while i < words.length
+    array[i]
+      short_words << 
 end
 
 def find_the_cheese# code an argument here
