@@ -19,10 +19,10 @@ def long_planeteer_calls(words)
   i = 0
   while i < words.length
     i +=1
-    if words[i].length <= 4
-      false
+    if words.any? {|i| i.length >4}
+      return true
     else
-      true
+      return false
     end
   end
   short_words
